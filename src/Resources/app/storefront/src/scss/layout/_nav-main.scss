@@ -1,0 +1,14 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the nav-main of the site/application.
+// It is the horizontal navigation menu at the top of the page
+// -----------------------------------------------------------------------------
+
+
+/* Full width layout for the header
+ * It will be used for all pages
+ */
+.nav-main {
+    .container {
+        max-width: $full-container-max-width;
+    }
+}

@@ -1,0 +1,23 @@
+{% sw_extends '@Storefront/storefront/utilities/offcanvas.html.twig' %}
+
+{% block utilities_offcanvas_content %}
+    {{ parent() }}
+
+    {% block page_product_detail_properties_container %}
+        <div class="product-detail-properties tab-pane-container">
+            {% block page_product_detail_properties_tab_pane %}
+            <div class="row product-detail-properties-content js-properties-container">
+                {% block page_product_detail_properties_main %}
+                    <div class="col product-detail-properties-main js-properties-content">
+                        {% block page_product_detail_properties_content %}
+                            {% if page.product.sortedProperties|length > 0 %}
+                                {% sw_include '@Storefront/storefront/page/product-detail/properties.html.twig' %}
+                            {% endif %}
+                        {% endblock %}
+                    </div>
+                {% endblock %}
+            </div>
+            {% endblock %}
+        </div>
+    {% endblock %}
+{% endblock %}

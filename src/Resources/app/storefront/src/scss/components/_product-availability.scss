@@ -1,0 +1,13 @@
+.product-availability {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 13px;
+}
+
+.in-stock span:first-child  {
+    color: #89c535;
+}
+
+.in-stock span:nth-child(2)  {
+    color: #b92215;
+}

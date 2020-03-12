@@ -1,0 +1,11 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.btn-buy {
+    &:hover {
+        background-color: $black;
+        border-color: $black;
+        color: $white;
+    }
+}

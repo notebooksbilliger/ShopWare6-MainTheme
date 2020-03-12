@@ -1,0 +1,15 @@
+{% block component_product_availbility %}
+    <div class="product-availability">
+        {% if availableStock>0 %}
+            <div class="in-stock">
+                <span>{{ "product.availability.in-stock"|trans }}</span>
+                /
+                <span>{{ "product.availability.delivery"|trans }}</span>
+            </div>
+        {% else %}
+            <div class="out-of-stock">
+                {{ "general.approximately-abbreviation"|trans }} {{ restockDays }} {{ "general.working-days"|trans }}
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}

@@ -1,0 +1,22 @@
+{
+  "checkout": {
+    "confirmTermsHeader": "AGB und Widerrufsbelehrung, Newsletter, Datenschutzerklärung und Stornierungsbedingungen",
+    "confirmSubmit": "Kaufen",
+    "confirmTerms": "* Ich habe die <a data-toggle=\"modal\" data-url=\"%url%\" href=\"%url%\" title=\"AGB\">AGB</a> Ihres Shops gelesen und bin mit deren Geltung einverstanden.",
+    "confirmPrivacyPolicy": "* Ich habe die <a data-toggle=\"modal\" data-url=\"%url%\" href=\"%url%\" title=\"Datenschutzerklärung\">Datenschutzerklärung</a> Ihres Shops gelesen und bin mit deren Geltung einverstanden.",
+    "confirmNewsletter": "Ich willige ein, dass mir die notebooksbilliger.de AG per E-Mail ihre Produkte und Dienstleistungen empfehlen und mich zur Zufriedenheit mit dem Kaufbefragen darf. Meine Einwilligung kann ich jederzeit widerrufen, bspw. per Abmeldelink am Ende des Newsletters. \nIch bin mindestens 16 Jahre alt. Weitere Infos, u.a. zum Versanddienstleister sowie zur Analyse und Auswertung, findest du in unseren Datenschutzbestimmungen."
+  },
+  "general": {
+    "approximately-abbreviation": "ca.",
+    "working-days": "Werktage"
+  },
+  "product": {
+    "availability": {
+      "in-stock": "sofort ab Lager",
+      "delivery": "24h Express"
+    }
+  },
+  "detail": {
+    "tabsProperties": "Eigenschaften"
+  }
+}

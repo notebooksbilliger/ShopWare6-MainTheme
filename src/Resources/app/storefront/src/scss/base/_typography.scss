@@ -1,0 +1,8 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $text-color;
+  font: normal 100% / 1.4 $text-font-stack;
+  font-family: Inter, "Open Sans", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif
+}

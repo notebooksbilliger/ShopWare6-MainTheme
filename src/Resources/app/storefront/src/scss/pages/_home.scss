@@ -1,0 +1,20 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+.is-act-home {
+    main {
+        .container {
+            max-width: $full-container-max-width;
+        }
+
+        // Overriding default bootstrap situation where row row containers have extra padding from sides
+        .cms-block-product-listing .cms-block-container {
+            padding: 20px 0 !important;
+
+            .cms-row {
+                padding: 0;
+            }
+        }
+    }
+}

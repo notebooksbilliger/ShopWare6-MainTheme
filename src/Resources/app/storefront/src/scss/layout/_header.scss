@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+
+/* Full width layout for the header
+ * It will be used for all pages
+ */
+.header-main {
+    .container {
+        max-width: $full-container-max-width;
+    }
+}

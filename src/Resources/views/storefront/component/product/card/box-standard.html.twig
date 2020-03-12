@@ -1,0 +1,10 @@
+{% sw_extends '@Storefront/storefront/component/product/card/box-standard.html.twig' %}
+
+{% block component_product_box_price %}
+    {{ parent() }}
+
+    {% sw_include '@Storefront/storefront/widget/product/stock-availability.html.twig' with {
+        'availableStock': product.availableStock,
+        'restockDays': product.restockTime
+    } only %}
+{% endblock %}

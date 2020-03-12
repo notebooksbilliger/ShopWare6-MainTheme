@@ -1,0 +1,25 @@
+{
+    "name": "nps-international/main-theme",
+    "description": "NullProzentShop.de International theme plugin",
+    "version": "v1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "MainTheme\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "BAMIZ Sp. z o.o."
+        }
+    ],
+    "extra": {
+        "copyright": "notebooksbilliger.de AG",
+        "shopware-plugin-class": "MainTheme\\MainTheme",
+        "label": {
+            "de-DE": "NPS International Theme",
+            "en-GB": "NPS International Theme"
+        }
+    }
+}

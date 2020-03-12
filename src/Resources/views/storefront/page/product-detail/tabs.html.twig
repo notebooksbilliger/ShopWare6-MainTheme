@@ -1,0 +1,36 @@
+{% sw_extends '@Storefront/storefront/page/product-detail/tabs.html.twig' %}
+
+{% block page_product_detail_tabs_navigation_review %}
+    {{ parent() }}
+
+    {% block page_product_detail_tabs_navigation_properties %}
+        <li class="nav-item">
+            <a class="nav-link product-detail-tab-navigation-link"
+               id="properties-tab"
+               data-toggle="tab"
+               data-offcanvas-tabs="true"
+               href="#properties-tab-pane"
+               role="tab"
+               aria-controls="properties-tab-pane"
+               aria-selected="true">
+                {{ "detail.tabsProperties"|trans|sw_sanitize }}
+                <span class="product-detail-tab-navigation-icon">
+                    {% sw_icon 'arrow-medium-right' style {'pack':'solid'} %}
+                </span>
+            </a>
+        </li>
+    {% endblock %}
+{% endblock %}
+
+{% block page_product_detail_tabs_content_review %}
+    {{ parent() }}
+
+    {% block page_product_detail_tabs_content_properties %}
+        <div class="tab-pane fade show"
+             id="properties-tab-pane"
+             role="tabpanel"
+             aria-labelledby="properties-tab">
+            {% sw_include '@Storefront/storefront/page/product-detail/properties/properties.html.twig' %}
+        </div>
+    {% endblock %}
+{% endblock %}

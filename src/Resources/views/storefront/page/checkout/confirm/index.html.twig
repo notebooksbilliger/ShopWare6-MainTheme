@@ -1,0 +1,60 @@
+{% sw_extends '@Storefront/storefront/page/checkout/confirm/index.html.twig' %}
+
+{% block page_checkout_confirm_tos %}
+    <div class="confirm-tos">
+        <div class="card checkout-card">
+            <div class="card-body">
+                {% block page_checkout_confirm_tos_header %}
+                    {{ parent() }}
+                {% endblock %}
+
+                {% block page_checkout_confirm_revocation_notice %}
+                    {{ parent() }}
+                {% endblock %}
+
+                {% block page_checkout_confirm_tos_control %}
+                    {{ parent() }}
+                {% endblock %}
+
+                {% block page_checkout_confirm_privacy_policy_control %}
+                    <div class="custom-control custom-checkbox mt-2">
+                        {% block page_checkout_confirm_privacy_policy_control_checkbox %}
+                            <input type="checkbox"
+                                   class="custom-control-input{% if formViolations.getViolations('/privacy-policy') is not empty %} is-invalid{% endif %}"
+                                   required="required"
+                                   id="privacy-policy"
+                                   form="confirmOrderForm"
+                                   name="privacy-policy"/>
+                        {% endblock %}
+
+                        {% block page_checkout_confirm_privacy_policy_control_label %}
+                            <label for="privacy-policy" class="custom-control-label">
+                                {{ "checkout.confirmPrivacyPolicy"|trans({
+                                    '%url%': path('frontend.cms.page',{ id: shopware.config.core.basicInformation.privacyPage })
+                                })|raw }}
+                            </label>
+                        {% endblock %}
+                    </div>
+                {% endblock %}
+
+                {% block page_checkout_confirm_newsletter_control %}
+                    <div class="custom-control custom-checkbox mt-2">
+                        {% block page_checkout_confirm_newsletter_control_checkbox %}
+                            <input type="checkbox"
+                                   class="custom-control-input"
+                                   id="newsletter"
+                                   form="confirmOrderForm"
+                                   name="newsletter"/>
+                        {% endblock %}
+
+                        {% block page_checkout_confirm_newsletter_control_label %}
+                            <label for="newsletter" class="custom-control-label">
+                                {{ "checkout.confirmNewsletter"|trans|raw }}
+                            </label>
+                        {% endblock %}
+                    </div>
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

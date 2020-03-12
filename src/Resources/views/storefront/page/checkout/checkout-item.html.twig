@@ -1,0 +1,18 @@
+{% sw_extends '@Storefront/storefront/page/checkout/checkout-item.html.twig' %}
+
+{% block page_checkout_item_delivery_date %}
+    {% set deliveryInformation = lineItem.deliveryInformation %}
+
+    {% if deliveryPosition and deliveryPosition.deliveryDate %}
+        <div class="cart-item-delivery-date">
+            {% sw_include '@Storefront/storefront/widget/product/stock-availability.html.twig' with {
+                'availableStock': deliveryInformation.stock,
+                'restockDays': deliveryInformation.restockTime
+            } only %}
+            {{ "checkout.lineItemDeliveryDate"|trans({
+                '%earliest%': deliveryPosition.deliveryDate.earliest|format_date('short', locale=app.request.locale),
+                '%latest%': deliveryPosition.deliveryDate.latest|format_date('short', locale=app.request.locale)
+            })|sw_sanitize }}
+        </div>
+    {% endif %}
+{% endblock %}
