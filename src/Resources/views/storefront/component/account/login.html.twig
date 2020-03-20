@@ -1,0 +1,23 @@
+{% sw_extends '@Storefront/storefront/component/account/login.html.twig' %}
+
+{% block component_account_login_form_fields %}
+    {{ parent() }}
+
+    {% block component_account_login_form_remember_me %}
+        <div class="form-row">
+            <div class="form-group col-12">
+                <div class="custom-control custom-checkbox">
+                    {% block component_account_login_form_remember_me_checkbox %}
+                        <input type="checkbox" class="custom-control-input" id="remember_me" name="_remember_me" checked/>
+                    {% endblock %}
+
+                    {% block component_account_login_form_remember_me_label %}
+                        <label for="remember_me" class="custom-control-label">
+                            {{ "account.loginRememberMe"|trans|raw }}
+                        </label>
+                    {% endblock %}
+                </div>
+            </div>
+        </div>
+    {% endblock %}
+{% endblock %}
