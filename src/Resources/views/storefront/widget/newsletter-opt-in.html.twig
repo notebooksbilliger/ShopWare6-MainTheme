@@ -1,0 +1,16 @@
+{% block component_confirm_newsletter_control %}
+    <div class="custom-control custom-checkbox mb-4">
+        {% block component_confirm_newsletter_control_checkbox %}
+            <input type="checkbox"
+                   class="custom-control-input"
+                   id="newsletter"
+                   name="newsletter"/>
+        {% endblock %}
+
+        {% block component_confirm_newsletter_control_label %}
+            <label for="newsletter" class="custom-control-label">
+                {{ "general.confirmNewsletter"|trans|raw }}
+            </label>
+        {% endblock %}
+    </div>
+{% endblock %}
