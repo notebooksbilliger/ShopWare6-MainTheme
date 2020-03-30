@@ -1,3 +1,7 @@
+# 1.0.3
+- temporarily disable add to cart by product number functionality due to the
+  https://github.com/shopware/platform/issues/680
+
 # 1.0.2
 - move Shopware scroll-up button just above Zendesk Web Widget to avoid overlapping
 

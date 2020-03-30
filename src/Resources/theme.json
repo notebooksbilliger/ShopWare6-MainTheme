@@ -278,7 +278,7 @@
                     "de-DE": "App- & Share-Icon"
                 },
                 "type": "media",
-                "value": "app/storefront/src/assets/logo/nps-logo-medium-q.png",
+                "value": "app/storefront/src/assets/logo/nps-logo-medium-r.png",
                 "editable": true,
                 "block": "media",
                 "order": 400
