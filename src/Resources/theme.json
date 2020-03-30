@@ -237,7 +237,7 @@
                     "de-DE": "Wird über einem Viewport von 991px angezeigt"
                 },
                 "type": "media",
-                "value": "app/storefront/src/assets/logo/logo_header_ver3.gif",
+                "value": "app/storefront/src/assets/logo/logo_header_ver3_desktop.gif",
                 "editable": true,
                 "block": "media",
                 "order": 100
@@ -252,7 +252,7 @@
                     "de-DE": "Wird zwischen einem viewport von 767px bis 991px angezeigt"
                 },
                 "type": "media",
-                "value": "app/storefront/src/assets/logo/logo_header_ver3.gif",
+                "value": "app/storefront/src/assets/logo/logo_header_ver3_tablet.gif",
                 "editable": true,
                 "block": "media",
                 "order": 200
@@ -267,7 +267,7 @@
                     "de-DE": "Wird bis zu einem Viewport von 767px angezeigt"
                 },
                 "type": "media",
-                "value": "app/storefront/src/assets/logo/logo_header_ver3.gif",
+                "value": "app/storefront/src/assets/logo/logo_header_ver3_mobile.gif",
                 "editable": true,
                 "block": "media",
                 "order": 300
