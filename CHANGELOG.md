@@ -1,3 +1,6 @@
+# 1.0.2
+- move Shopware scroll-up button just above Zendesk Web Widget to avoid overlapping
+
 # 1.0.1
 - Add remember me checkbox on login page
 - Add newsletter opt-in checkbox on customer registration page
