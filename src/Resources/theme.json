@@ -289,7 +289,7 @@
                     "de-DE": "Favicon"
                 },
                 "type": "media",
-                "value": "app/storefront/src/assets/logo/favicon-nps.png",
+                "value": "app/storefront/src/assets/logo/nps-favicon.png",
                 "editable": true,
                 "block": "media",
                 "order": 500
