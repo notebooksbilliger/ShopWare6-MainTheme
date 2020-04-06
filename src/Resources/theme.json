@@ -17,7 +17,8 @@
     ],
     "script": [
         "@Storefront",
-        "app/storefront/src/main.js"
+        "app/storefront/src/main.js",
+        "app/storefront/src/storefront/js/nbbreturnforms.js"
     ],
     "asset": [
         "app/storefront/src/assets"

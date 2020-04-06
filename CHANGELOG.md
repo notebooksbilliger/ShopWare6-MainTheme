@@ -1,3 +1,6 @@
+# 1.0.5
+- add style and js files for NbbReturnForms
+
 # 1.0.4
 - fix issues with duplicated assets
 
