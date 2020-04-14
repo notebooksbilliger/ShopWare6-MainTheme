@@ -1,3 +1,6 @@
+# 1.0.6
+- move style and js files to NbbReturnForms
+
 # 1.0.5
 - add style and js files for NbbReturnForms
 
