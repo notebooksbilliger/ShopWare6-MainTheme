@@ -1,0 +1,11 @@
+{
+  "name": "maintheme",
+  "version": "1.0.0",
+  "description": "NPS International MainTheme",
+  "main": "index.js",
+  "author": "notebooksbilliger.de AG",
+  "license": "proprietary",
+  "dependencies": {
+    "glightbox": "^2.0.5"
+  }
+}

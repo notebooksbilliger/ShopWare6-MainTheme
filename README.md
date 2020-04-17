@@ -41,3 +41,9 @@ In Admin dashboard go to `Settings > System > Plugins`.
 In My plugins box first install and then activate Main Theme and then assign theme to chosen sales channels:
 - go to each channel > Theme tab
 - change theme
+
+### Tools
+`GLightbox`
+We are using GLightbox in our theme. It can display images, galleries, videos, iframes etc.
+Full documentation can be found at
+https://github.com/biati-digital/glightbox
