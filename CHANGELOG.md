@@ -1,3 +1,6 @@
+# 1.0.7
+- add GLightbox to display images, galleries, videos, iframes etc
+
 # 1.0.6
 - move style and js files to NbbReturnForms
 
