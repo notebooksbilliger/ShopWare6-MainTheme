@@ -1,3 +1,7 @@
+# 1.0.8
+- move Product Detail Page (PDP) properties tab to `nbb/detail-page` plugin
+- update copyright note
+
 # 1.0.7
 - add GLightbox to display images, galleries, videos, iframes etc
 
