@@ -4,6 +4,9 @@ namespace MainTheme\Resources\app\storefront\snippet;
 
 use Shopware\Core\System\Snippet\Files\SnippetFileInterface;
 
+/**
+ * @SuppressWarnings(PHPMD.CamelCaseClassName)
+ */
 class SnippetFile_de_DE implements SnippetFileInterface
 {
     public function getName(): string
