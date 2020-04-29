@@ -13,7 +13,8 @@ Install npm dependencies
 npm install
 ```
 
-Run script that setups GLightbox
+Installing npm dependencies will lunch post-install hooks that will prepare GLightbox to work with this theme.
+You can also run this manually with command
 ```$xslt
 npm run glightbox-setup
 ```

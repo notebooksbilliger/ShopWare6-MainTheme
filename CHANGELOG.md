@@ -1,3 +1,6 @@
+# 1.0.9
+- GLightbox is added via npm now
+
 # 1.0.8
 - move Product Detail Page (PDP) properties tab to `nbb/detail-page` plugin
 - update copyright note
