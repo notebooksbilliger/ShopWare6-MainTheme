@@ -1,5 +1,24 @@
 # NPS main theme plugin
 
+## Installing MainTheme dependencies
+
+To use the MainTheme you need to install npm dependencies.
+Go to Theme folder:
+```
+cd custom\plugins\MainTheme
+```
+
+Install npm dependencies
+```$xslt
+npm install
+```
+
+Run script that setups GLightbox
+```$xslt
+npm run glightbox-setup
+```
+
+
 ## There are two ways to enable NPS Theme in sales channels across the shop:
 
 ### via console commands inside app docker container
@@ -43,7 +62,8 @@ In My plugins box first install and then activate Main Theme and then assign the
 - change theme
 
 ### Tools
-`GLightbox`
+**GLightbox**
+
 We are using GLightbox in our theme. It can display images, galleries, videos, iframes etc.
 Full documentation can be found at
 https://github.com/biati-digital/glightbox

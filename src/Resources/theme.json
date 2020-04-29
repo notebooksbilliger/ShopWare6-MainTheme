@@ -17,7 +17,8 @@
     ],
     "script": [
         "@Storefront",
-        "app/storefront/src/main.js"
+        "app/storefront/src/main.js",
+        "app/storefront/src/js/glightbox.js"
     ],
     "asset": [
         "app/storefront/src/assets"

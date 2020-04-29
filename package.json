@@ -6,6 +6,11 @@
   "author": "notebooksbilliger.de AG",
   "license": "proprietary",
   "dependencies": {
+    "cpy-cli": "^3.1.0",
     "glightbox": "^2.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "glightbox-setup": "cpy './node_modules/glightbox/dist/js/glightbox.js' './src/Resources/app/storefront/src/js/'; cpy './node_modules/glightbox/dist/css/glightbox.css' './src/Resources/app/storefront/src/scss/vendors' --rename='glightbox.scss'"
   }
 }
