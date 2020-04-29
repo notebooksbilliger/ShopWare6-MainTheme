@@ -25,7 +25,7 @@ class SnippetFileDeDE implements SnippetFileInterface
 
     public function getAuthor(): string
     {
-        return 'Bamiz Sp. z o.o.';
+        return 'notebooksbilliger.de AG';
     }
 
     public function isBase(): bool
