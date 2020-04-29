@@ -1,3 +1,6 @@
+# 1.0.9
+- refactor snippet file class names to CamelCase
+
 # 1.0.8
 - move Product Detail Page (PDP) properties tab to `nbb/detail-page` plugin
 - update copyright note

@@ -1,13 +1,12 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace MainTheme\Resources\app\storefront\snippet;
 
 use Shopware\Core\System\Snippet\Files\SnippetFileInterface;
 
-/**
- * @SuppressWarnings(PHPMD.CamelCaseClassName)
- */
-class SnippetFile_en_GB implements SnippetFileInterface
+class SnippetFileEnGB implements SnippetFileInterface
 {
     public function getName(): string
     {
