@@ -1,3 +1,6 @@
+# 1.0.10
+- fix issue with add product to cart before load js 
+
 # 1.0.9
 - GLightbox is added via npm now
 
