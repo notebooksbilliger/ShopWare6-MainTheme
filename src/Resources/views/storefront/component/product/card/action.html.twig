@@ -1,53 +1,36 @@
 {% sw_extends '@Storefront/storefront/component/product/card/action.html.twig' %}
 
-{% block component_product_box_action_inner %}
-    {{ parent }}
-
-    {% block component_product_box_action_buy %}
-        <form action="{{ path('frontend.checkout.line-item.add') }}"
-              method="post"
-              class="buy-widget"
-              data-add-to-cart="true">
-
-            {% block component_product_box_action_buy_csrf %}
-                {{ sw_csrf('frontend.checkout.line-item.add') }}
-            {% endblock %}
-
-            {% block component_product_box_action_form %}
-
-                {% block component_product_box_action_buy_redirect_input %}
-                    <input type="hidden"
-                           name="redirectTo"
-                           value="frontend.cart.offcanvas"/>
-                {% endblock %}
-
-                {% block page_product_detail_buy_product_buy_info %}
-                    <input type="hidden"
-                           name="lineItems[{{ id }}][id]"
-                           value="{{ id }}">
-                    <input type="hidden"
-                           name="lineItems[{{ id }}][referencedId]"
-                           value="{{ id }}">
-                    <input type="hidden"
-                           name="lineItems[{{ id }}][type]"
-                           value="product">
-                    <input type="hidden"
-                           name="lineItems[{{ id }}][stackable]"
-                           value="1">
-                    <input type="hidden"
-                           name="lineItems[{{ id }}][removable]"
-                           value="1">
-                    <input type="hidden"
-                           name="lineItems[{{ id }}][quantity]"
-                           value="1">
-                {% endblock %}
-
-                <button class="btn btn-block btn-buy"
-                        disabled="disabled"
-                        title="{{ "listing.boxAddProduct"|trans|striptags }}">
-                    {{ "listing.boxAddProduct"|trans|sw_sanitize }}
-                </button>
-            {% endblock %}
-        </form>
+{% block component_product_box_action_form %}
+    {% block component_product_box_action_buy_redirect_input %}
+        <input type="hidden"
+               name="redirectTo"
+               value="frontend.cart.offcanvas"/>
     {% endblock %}
+
+    {% block page_product_detail_buy_product_buy_info %}
+        <input type="hidden"
+               name="lineItems[{{ id }}][id]"
+               value="{{ id }}">
+        <input type="hidden"
+               name="lineItems[{{ id }}][referencedId]"
+               value="{{ id }}">
+        <input type="hidden"
+               name="lineItems[{{ id }}][type]"
+               value="product">
+        <input type="hidden"
+               name="lineItems[{{ id }}][stackable]"
+               value="1">
+        <input type="hidden"
+               name="lineItems[{{ id }}][removable]"
+               value="1">
+        <input type="hidden"
+               name="lineItems[{{ id }}][quantity]"
+               value="1">
+    {% endblock %}
+
+    <button class="btn btn-block btn-buy"
+            disabled="disabled"
+            title="{{ "listing.boxAddProduct"|trans|striptags }}">
+        {{ "listing.boxAddProduct"|trans|sw_sanitize }}
+    </button>
 {% endblock %}
