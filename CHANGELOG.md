@@ -1,8 +1,14 @@
-# 1.0.10
+# 1.0.12
 - fix issue with add product to cart before load js 
 
-# 1.0.9
+# 1.0.11
+- Fixed permission problem when running npm postinstall scripts inside container
+
+# 1.0.10
 - GLightbox is added via npm now
+
+# 1.0.9
+- refactor snippet file class names to CamelCase
 
 # 1.0.8
 - move Product Detail Page (PDP) properties tab to `nbb/detail-page` plugin
