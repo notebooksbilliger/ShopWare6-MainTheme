@@ -1,3 +1,6 @@
+# 1.0.11
+- Fixed permission problem when running npm postinstall scripts inside container
+
 # 1.0.10
 - GLightbox is added via npm now
 
