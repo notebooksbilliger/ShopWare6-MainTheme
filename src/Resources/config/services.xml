@@ -12,9 +12,5 @@
         <service id="MainTheme\Resources\app\storefront\snippet\SnippetFile_en_GB">
             <tag name="shopware.snippet.file"/>
         </service>
-
-        <service id="MainTheme\Validator\ExtendedCustomerValidationFactory"
-                 decorates="Shopware\Core\Checkout\Customer\Validation\CustomerValidationFactory"
-                 parent="Shopware\Core\Checkout\Customer\Validation\CustomerValidationFactory"/>
     </services>
 </container>
