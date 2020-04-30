@@ -1,1 +1,1 @@
-// add js imports here
+// Global MainTheme java script

@@ -7,5 +7,10 @@
   "license": "proprietary",
   "dependencies": {
     "glightbox": "^2.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "glightbox-setup": "cp './node_modules/glightbox/dist/js/glightbox.js' './src/Resources/app/storefront/src/js/glightbox.js'; cp './node_modules/glightbox/dist/css/glightbox.css' './src/Resources/app/storefront/src/scss/vendors/glightbox.scss'",
+    "postinstall": "npm run glightbox-setup"
   }
 }
