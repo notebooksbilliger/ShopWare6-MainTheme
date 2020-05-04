@@ -1,10 +1,12 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace MainTheme\Resources\app\storefront\snippet;
 
 use Shopware\Core\System\Snippet\Files\SnippetFileInterface;
 
-class SnippetFile_en_GB implements SnippetFileInterface
+class SnippetFileEnGB implements SnippetFileInterface
 {
     public function getName(): string
     {
@@ -23,7 +25,7 @@ class SnippetFile_en_GB implements SnippetFileInterface
 
     public function getAuthor(): string
     {
-        return 'Bamiz Sp. z o.o.';
+        return 'notebooksbilliger.de AG';
     }
 
     public function isBase(): bool
