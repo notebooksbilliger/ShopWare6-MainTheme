@@ -1,2 +1,4 @@
 src/Resources/app/storefront/dist
 node_modules
+src/Resources/app/storefront/src/js/glightbox.js
+src/Resources/app/storefront/src/scss/vendors/glightbox.scss
