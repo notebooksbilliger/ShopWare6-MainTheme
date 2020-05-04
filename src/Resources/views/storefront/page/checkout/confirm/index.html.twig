@@ -30,7 +30,7 @@
     <p class="checkout-buy-button-info">
         {{ "general.confirmTermsAndPrivacyPolicy"|trans({
             '%button-label%': 'checkout.confirmSubmit'|trans,
-            '%terms-url%': path('frontend.cms.page',{ id: shopware.config.core.basicInformation.tosPage }),
+            '%agb-url%': path('frontend.cms.page',{ id: shopware.config.core.basicInformation.tosPage }),
             '%privacy-policy-url%': path('frontend.cms.page',{ id: shopware.config.core.basicInformation.privacyPage })
         })|raw }}
     </p>
