@@ -1,3 +1,11 @@
+# 1.0.14
+- add to .gitignore file installed during GLightBox plugin installation
+
+# 1.0.13
+- remove AGB & privacy policy checkboxes from checkout
+- show an AGB & privacy policy note above the "buy" button in checkout
+- move customer data validation out of the theme
+
 # 1.0.12
 - fix issue with add product to cart before load js 
 
