@@ -18,7 +18,8 @@
     "script": [
         "@Storefront",
         "app/storefront/src/main.js",
-        "app/storefront/src/js/glightbox.js"
+        "app/storefront/src/js/glightbox.js",
+        "app/storefront/src/js/enableSubmitAfterPageLoad.js"
     ],
     "asset": [
         "app/storefront/src/assets"

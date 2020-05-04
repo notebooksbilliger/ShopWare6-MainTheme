@@ -1,3 +1,6 @@
+# 1.0.12
+- fix issue with add product to cart before load js 
+
 # 1.0.11
 - Fixed permission problem when running npm postinstall scripts inside container
 
