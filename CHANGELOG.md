@@ -1,3 +1,8 @@
+# 1.0.13
+- remove AGB & privacy policy checkboxes from checkout
+- show an AGB & privacy policy note above the "buy" button in checkout
+- move customer data validation out of the theme
+
 # 1.0.12
 - fix issue with add product to cart before load js 
 
