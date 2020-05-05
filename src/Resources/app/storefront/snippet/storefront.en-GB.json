@@ -3,14 +3,12 @@
     "loginRememberMe": "Keep me signed in"
   },
   "checkout": {
-    "confirmTermsHeader": "Terms, conditions, newsletter subscription, privacy and cancellation policy",
-    "confirmSubmit": "Buy",
-    "confirmTerms": "* I have read and accepted the <a data-toggle=\"modal\" data-url=\"%url%\" href=\"%url%\" title=\"General terms and conditions\">General terms and conditions</a> of your shop.",
-    "confirmPrivacyPolicy": "* I have read the <a data-toggle=\"modal\" data-url=\"%url%\" href=\"%url%\" title=\"Privacy policy\">Privacy policy</a> of your shop and agree to its validity."
+    "confirmSubmit": "Buy"
   },
   "general": {
     "approximately-abbreviation": "approx.",
     "working-days": "working days",
+    "confirmTermsAndPrivacyPolicy": "By clicking the \"%button-label%\" button you agree to our <a data-toggle=\"modal\" data-url=\"%agb-url%\" href=\"%agb-url%\" title=\"TOS\">general terms and conditions of service</a> as well as our <a data-toggle=\"modal\" data-url=\"%privacy-policy-url%\" href=\"%privacy-policy-url%\" title=\"Datenschutzerklärung\">data protection policy</a>.",
     "confirmNewsletter": "I consent to notebooksbilliger.de AG recommending their products and services to me by e-mail and asking me to be satisfied with the purchase. I can revoke my consent at any time, e.g. by unsubscribing\nat the end of the newsletter. I am at least 16 years old. More information, including about the shipping service provider as well as for analysis and evaluation can be found in our data protection regulations."
   },
   "product": {
