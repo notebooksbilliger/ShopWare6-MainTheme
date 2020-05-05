@@ -1,3 +1,7 @@
+# 1.0.14
+- add to .gitignore file installed during GLightBox plugin installation
+- fix js issue with two window.onload()
+
 # 1.0.13
 - remove AGB & privacy policy checkboxes from checkout
 - show an AGB & privacy policy note above the "buy" button in checkout

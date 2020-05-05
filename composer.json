@@ -1,7 +1,7 @@
 {
     "name": "nps-international/main-theme",
     "description": "NullProzentShop.de International theme plugin",
-    "version": "1.0.13",
+    "version": "1.0.14",
     "type": "shopware-platform-plugin",
     "license": "proprietary",
     "autoload": {
