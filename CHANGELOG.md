@@ -1,3 +1,7 @@
+# 1.0.15
+- refactor 3rd party js/scss imports
+- add GLightbox as global
+
 # 1.0.14
 - add to .gitignore file installed during GLightBox plugin installation
 - fix js issue with two window.onload()
