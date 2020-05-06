@@ -1,16 +1,17 @@
 {
   "name": "maintheme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NPS International MainTheme",
   "main": "index.js",
   "author": "notebooksbilliger.de AG",
   "license": "proprietary",
   "dependencies": {
-    "glightbox": "^2.0.5"
+    "glightbox": "^2.0.5",
+    "normalize.css": "^8.0.1"
   },
-  "devDependencies": {},
   "scripts": {
-    "glightbox-setup": "cp './node_modules/glightbox/dist/js/glightbox.js' './src/Resources/app/storefront/src/js/glightbox.js'; cp './node_modules/glightbox/dist/css/glightbox.css' './src/Resources/app/storefront/src/scss/vendors/glightbox.scss'",
-    "postinstall": "npm run glightbox-setup"
+    "glightbox-setup": "cp './node_modules/glightbox/dist/css/glightbox.css' './node_modules/glightbox/dist/css/_glightbox.scss'",
+    "normalize-css-setup": "cp './node_modules/normalize.css/normalize.css' './node_modules/normalize.css/_normalize.scss'",
+    "postinstall": "npm run glightbox-setup && npm run normalize-css-setup"
   }
 }

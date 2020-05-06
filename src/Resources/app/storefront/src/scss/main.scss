@@ -8,8 +8,8 @@
 
 // 2. Vendors
 @import
-  'vendors/normalize',
-  'vendors/glightbox';
+  '../../../../../../node_modules/glightbox/dist/css/glightbox',
+  '../../../../../../node_modules/normalize.css/normalize';
 
 // 3. Base stuff
 @import
