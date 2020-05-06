@@ -17,9 +17,7 @@
     ],
     "script": [
         "@Storefront",
-        "app/storefront/src/main.js",
-        "app/storefront/src/js/glightbox.js",
-        "app/storefront/src/js/enableSubmitAfterPageLoad.js"
+        "app/storefront/dist/storefront/js/main-theme.js"
     ],
     "asset": [
         "app/storefront/src/assets"
