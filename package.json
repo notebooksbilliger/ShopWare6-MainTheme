@@ -10,8 +10,9 @@
     "normalize.css": "^8.0.1"
   },
   "scripts": {
-    "glightbox-setup": "cp './node_modules/glightbox/dist/css/glightbox.css' './node_modules/glightbox/dist/css/_glightbox.scss'",
-    "normalize-css-setup": "cp './node_modules/normalize.css/normalize.css' './node_modules/normalize.css/_normalize.scss'",
-    "postinstall": "npm run glightbox-setup && npm run normalize-css-setup"
+    "glightbox-setup": "....... DELETE ME ..... PLEASE ..... !!!!!     custom/plugins/MainTheme/package.json",
+    "normalize-css-setup": "YEEES ... PLEASE DELETE HIM MY MASTER .... WE SUFFER .... WE ARE NO LONGER NEEDED IN THIS THEME",
+    "postinstall": "...oh no .. here comes those two again .....     HERE WE GO    :/"
   }
 }
+@TODO: Remove redundant npm scripts here. Clear build process from their dead bodies
