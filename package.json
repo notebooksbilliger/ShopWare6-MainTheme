@@ -8,10 +8,5 @@
   "dependencies": {
     "glightbox": "^2.0.5",
     "normalize.css": "^8.0.1"
-  },
-  "scripts": {
-    "glightbox-setup": "cp './node_modules/glightbox/dist/css/glightbox.css' './node_modules/glightbox/dist/css/_glightbox.scss'",
-    "normalize-css-setup": "cp './node_modules/normalize.css/normalize.css' './node_modules/normalize.css/_normalize.scss'",
-    "postinstall": "npm run glightbox-setup && npm run normalize-css-setup"
   }
 }
